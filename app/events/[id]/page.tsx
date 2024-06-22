@@ -17,7 +17,7 @@ interface EventDetailsProps {
 const EventDetails = async ({ params }: EventDetailsProps) => {
   const event: Event = await fetchEventsById(params.id);
   return (
-    <div className="container mx-auto px-[1rem] py-[1rem]npm">
+    <div className="container mx-auto px-[1rem] py-[1rem]">
       <div className="w-1/2 mx-auto py-5">
         <Image
           src={event.image}
