@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tickt | Discover Events
+![tickt](https://github.com/andrewmartinn/nextjs-tickt/assets/152824513/1fd239bb-a9ab-4d25-9008-63fce8abd685)
+![tickt2](https://github.com/andrewmartinn/nextjs-tickt/assets/152824513/16ae7d6e-bf7c-4717-b387-53fdd89a1c0c)
+![tickt3](https://github.com/andrewmartinn/nextjs-tickt/assets/152824513/56f6ee22-8fe6-4048-8ff3-895507c3f79a)
 
-## Getting Started
+Tickt is a web application that allows users to discover and book events. Users can search for events, view detailed information about each event, and book tickets. The application is built with Next.js, Tailwind CSS, and JSON Server for mock backend data.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Next.js](https://nextjs.org/): React framework for production
+- [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework
+- [React Icons](https://react-icons.github.io/react-icons/): Include popular icons in your React projects easily
+- [React Markdown](https://github.com/remarkjs/react-markdown): Render Markdown in React
+- [Use-Debounce](https://github.com/xnimorz/use-debounce): Debounce hook for managing debounce state
+- [JSON Server](https://github.com/typicode/json-server): Mock REST API server for rapid prototyping
+- [TypeScript](https://www.typescriptlang.org/): Typed superset of JavaScript
+- [Embla Carousel](https://www.embla-carousel.com/): A lightweight carousel library with fluid motion
+
+
+## Features
+
+- Search for events
+- View detailed information about events
+- Select ticket tiers and display ticket summary
+- Book tickets for events
+
+## Project Outcomes
+
+- **Effective Use of TypeScript**: Leveraged TypeScript for type-checking and defining types for component props, ensuring type safety throughout the application.
+- **Created Reusable UI Components with Tailwind CSS**: Used Tailwind CSS to build UI components with utility-first styling.
+- **State Management**: Managed application state effectively, handling asynchronous operations such as fetching data from the server and updating the UI accordingly.
+- **Debounce Search Input**: Implemented a debounced search input to optimize the search functionality and improve user experience.
+- **Mock Backend Events API**: Created a mock backend events API using JSON Server and consumed this API to display events.
+- **Simulated Booking Process**: Simulated the booking process by allowing users to select tickets and showing a ticket summary.
+- **Dynamic URL Updates**: Utilized `useSearchParams` and `URLSearchParams` to update the URL dynamically with the search query without page reload.
+  
+## Project Setup
+
+This project was bootstrapped with [Nextjs](https://nextjs.org/docs/api-reference/create-next-app).
+
+To get started you need to:
+
+- Clone the project
+- Install listed dependencies
+- Run available scripts
+
+### Install dependencies
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run Next dev server (http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Run the JSON server (http://localhost:5000)
 
-## Learn More
+```
+npm run server
+```
 
-To learn more about Next.js, take a look at the following resources:
+### To build for production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+To deploy this project run
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+  npm run deploy
+```
