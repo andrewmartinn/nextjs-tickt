@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "France vs Netherlands",
+      "venue": "Beirut Fan Festival 2024",
+      "location": "Dubai, UAE",
+      "date": "2024-06-21",
+      "tags": [],
+      "eventOrganizer": {
+        "name": "Beirut Fan Festival",
+        "logo": "/images/organizer_logo1.jpg"
+      },
+      "duration": "From Today, 10:00 PM Till Today, 11:59 PM",
+      "ticketTiers": [
+        {
+          "id": 101,
+          "name": "General Admission + 1 Soft Drink",
+          "price": "10 USD",
+          "isAvailable": true
+        },
+        {
+          "id": 102,
+          "name": "VIP Admission + 1 Drink",
+          "price": "20 USD",
+          "isAvailable": true
+        }
+      ],
+      "description": "The Ultimate Euro Cup 2024 Experience Join the action on the largest screen in Lebanon! Tickets available in the link in bio and at the door",
+      "image": "/images/event1.jpg",
+      "location_map": "/images/event_location1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Clubhouse",
+      "venue": "Arch",
+      "location": "Matn, Lebanon",
+      "date": "2024-06-22",
+      "tags": ["2010s", "2000"],
+      "eventOrganizer": {
+        "name": "Arch",
+        "logo": "/images/organizer_logo2.jpg"
+      },
+      "duration": "From Today, 10:00 PM Till Tomorrow, 4:00 AM",
+      "ticketTiers": [
+        {
+          "id": 201,
+          "name": "Entry Ticket",
+          "price": "10 USD",
+          "isAvailable": true
+        }
+      ],
+      "description": "Clubhouse Friday\n\nDJ Cyril M and Gadzo",
+      "image": "/images/event2.jpg",
+      "location_map": "/images/event_location2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Les Scouts du Liban en Concert",
+      "venue": "Les Scouts du Liban",
+      "location": "Hippodrome de Beyrouth, Beyrouth",
+      "date": "2024-06-25",
+      "tags": [],
+      "eventOrganizer": {
+        "name": "Les Scouts du Liban",
+        "logo": "/images/organizer_logo3.jpg"
+      },
+      "duration": "From Sat Jul 27, 4:30 PM Till Sun Jul 28, 12:00 AM",
+      "ticketTiers": [
+        {
+          "id": 301,
+          "name": "Zone C",
+          "price": "35 USD",
+          "isAvailable": false
+        },
+        {
+          "id": 302,
+          "name": "Zone B",
+          "price": "50 USD",
+          "isAvailable": true
+        },
+        {
+          "id": 303,
+          "name": "Zone A",
+          "price": "65 USD",
+          "isAvailable": false
+        }
+      ],
+      "description": "Un concert par les scouts pour vous ! Nous vous attendons avec impatience pour vivre avec vous une ambiance de retrouvailles. N'oubliez pas votre tenue scoute !",
+      "image": "/images/event3.jpg",
+      "location_map": "/images/event_location3.jpg"
+    }
+  ]
+}
